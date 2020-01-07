@@ -1,0 +1,7 @@
+---
+applications:
+- name: hushbot
+  buildpack: go_buildpack
+  env:
+    GOPACKAGENAME: hushbot
+  no-route: true
